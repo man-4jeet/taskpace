@@ -2,7 +2,7 @@ import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 
 export function Hero() {
   return (
-    <div className="h-[calc(100vh-45px)] w-screen flex justify-center items-center flex-col">
+    <div className="h-[calc(100vh-45px)] w-screen flex justify-center items-center flex-col" id="hero">
       <div className="text-8xl font-thin">Manjeet Singh</div>
       <div className="text-lg">Passionate about changing the world with technology.</div>
 
@@ -21,8 +21,12 @@ export function Hero() {
         </a>
       </div>
 
-      <div className="p-3 border border-white rounded-lg mt-6">More about me</div>
-      <div></div>
+      <a
+        href="#aboutme"
+        className="p-3 border border-white rounded-lg mt-6 hover:bg-gray-200 hover:text-black transition-all duration-300"
+      >
+        More about me
+      </a>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-"use client"; // Marks the component as a Client Component
+"use client"; 
 
 import React, { useState } from 'react';
 
@@ -55,8 +55,7 @@ interface Skill {
 }
 
 const Skills: React.FC = () => {
-  const [showTechnical, setShowTechnical] = useState(true); // State to toggle between technical and soft skills
-
+  const [showTechnical, setShowTechnical] = useState(true); 
   const technicalSkills: Skill[] = [
     { skill: 'React', level: 80 },
     { skill: 'JavaScript', level: 75 },
