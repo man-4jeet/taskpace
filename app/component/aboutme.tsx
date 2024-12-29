@@ -1,25 +1,35 @@
-import Photo from "../../public/image.png";
+import Photo from "../../public/ManjeetProfilephoto.jpeg";
 import Image from "next/image";
 
 export function AboutMe() {
     return (
-        <div className="flex pt-10">
-            <Image 
-                src={Photo}
-                alt="Image"
-                width={400}
-                className="rounded-full ml-16"
-            />
-            <div className="ml-32 text-black">
-                <h1 className="text-6xl mx-20">About Me</h1>
-                <p className="px-12 mt-10 text-lg text-slate-600">
-                    My name is Mohd Shahid Iqbal. I&apos;m a post-graduate of 2020 from Jamia Hamdard University at New Delhi with a degree in Masters of Computer Application. 
-                    I&apos;m most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. 
-                    In my free time, I like working on open-source projects.
+        <div className="flex pt-16 pb-16 bg-gray-100">
+            <div className="flex-shrink-0 w-full md:w-1/3 flex justify-center">
+                <Image 
+                    src={Photo}
+                    alt="Manjeet Singh Profile"
+                    width={400}
+                    height={400}
+                    className="rounded-full shadow-lg border-4 border-gray-300"
+                />
+            </div>
+            <div className="ml-8 md:ml-16 text-black flex flex-col justify-center w-full md:w-2/3">
+                <h1 className="text-5xl md:text-6xl font-semibold text-gray-800 mb-6">About Me</h1>
+                <p className="text-lg text-gray-600 leading-relaxed mb-8 mx-auto md:mx-12">
+                I&apos;m Manjeet Singh, a Fullstack Developer with a passion for building dynamic and user-friendly web applications. Currently pursuing a B.Tech in Biotechnology at Motilal Nehru National Institute of Technology (MNNIT), I have honed my skills in web development through various projects and professional experience.
+                With a problem-solving mindset and a collaborative approach, I&apos;m always looking for opportunities to grow and make an impact through technology.
+             
                 </p>
-                <span className="border border-gray-800 p-4 rounded-lg mt-12 block w-fit ml-44">
-                    Resume
-                </span>
+                <a 
+    href="https://drive.google.com/file/d/1qZIZYEDOUJTs1RY0D8k6KC3yIzlyOlX6/view?usp=drivesdk" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="inline-block text-center py-3 px-6 mt-6 text-lg font-medium text-black hover:bg-gray-700 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105 cursor-pointer max-w-xs"
+>
+    View My Resume
+</a>
+
+
             </div>
         </div>
     );
