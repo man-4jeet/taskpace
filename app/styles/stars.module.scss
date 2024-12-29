@@ -182,7 +182,7 @@
       696px 1654px #fff, 1144px 60px #fff;
   }
   
-#star:after {
+.star:after {
     content: "";
     position: absolute;
     top: 2000px;
@@ -368,59 +368,59 @@
       696px 1654px #fff, 1144px 60px #fff;
   }
   
-  @keyframes animStar {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(-2000px);
-    }
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
   }
+  to {
+    transform: translateY(-2000px);
+  }
+}
   
-  @-webkit-keyframes BackgroundAnimation {
-    0% {
-      background-position: 0% 7%;
-    }
-    50% {
-      background-position: 100% 94%;
-    }
-    100% {
-      background-position: 0% 7%;
-    }
+@-webkit-keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 7%;
   }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
   
-  @-moz-keyframes BackgroundAnimation {
-    0% {
-      background-position: 0% 7%;
-    }
-    50% {
-      background-position: 100% 94%;
-    }
-    100% {
-      background-position: 0% 7%;
-    }
+@-moz-keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 7%;
   }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
   
-  @-o-keyframes BackgroundAnimation {
-    0% {
-      background-position: 0% 7%;
-    }
-    50% {
-      background-position: 100% 94%;
-    }
-    100% {
-      background-position: 0% 7%;
-    }
+@-o-keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 7%;
   }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
   
-  @keyframes BackgroundAnimation {
-    0% {
-      background-position: 0% 7%;
-    }
-    50% {
-      background-position: 100% 94%;
-    }
-    100% {
-      background-position: 0% 7%;
-    }
+@keyframes BackgroundAnimation {
+  0% {
+    background-position: 0% 7%;
   }
+  50% {
+    background-position: 100% 94%;
+  }
+  100% {
+    background-position: 0% 7%;
+  }
+}
