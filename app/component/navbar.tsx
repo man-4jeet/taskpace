@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
-import Link from 'next/link'; // Import Link from Next.js
+import Link from 'next/link'; 
 
 export function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -30,10 +30,10 @@ export function Navbar() {
             }`}
         >
             <div className="flex justify-between items-center">
-                {/* Left side - Logo or Identity */}
+               
                 <div className="text-3xl font-thin">Manjeet Singh</div>
 
-                {/* Right side - Navigation Links */}
+              
                 <div className="space-x-8 flex items-center">
                     <Link
                         href="#hero"
@@ -67,24 +67,32 @@ export function Navbar() {
                     </Link>
                 </div>
 
-                {/* Social Media Icons */}
+               
                 <div className="flex space-x-4">
-                    <Github
-                        size={30}
-                        className="hover:text-black hover:cursor-pointer hover:scale-125 transition-all duration-200"
-                    />
-                    <Facebook
-                        size={30}
-                        className="hover:text-black ml-1 hover:cursor-pointer hover:scale-125 transition-all duration-200"
-                    />
-                    <Instagram
-                        size={30}
-                        className="hover:text-black ml-2 hover:cursor-pointer hover:scale-125 transition-all duration-200"
-                    />
-                    <Linkedin
-                        size={30}
-                        className="hover:text-black ml-3 hover:cursor-pointer hover:scale-125 transition-all duration-200"
-                    />
+                    <a href="https://github.com/man-4jeet" target="_blank" rel="noopener noreferrer">
+                        <Github
+                            size={30}
+                            className="hover:text-black hover:cursor-pointer hover:scale-125 transition-all duration-200"
+                        />
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                        <Facebook
+                            size={30}
+                            className="hover:text-black ml-1 hover:cursor-pointer hover:scale-125 transition-all duration-200"
+                        />
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                        <Instagram
+                            size={30}
+                            className="hover:text-black ml-2 hover:cursor-pointer hover:scale-125 transition-all duration-200"
+                        />
+                    </a>
+                    <a href="https://www.linkedin.com/in/manjeet-singh-1857s" target="_blank" rel="noopener noreferrer">
+                        <Linkedin
+                            size={30}
+                            className="hover:text-black ml-3 hover:cursor-pointer hover:scale-125 transition-all duration-200"
+                        />
+                    </a>
                 </div>
             </div>
         </div>

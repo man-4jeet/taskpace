@@ -7,7 +7,7 @@ import { Experience } from "./component/experience";
 import { RecentProject } from "./component/recentproject";
 import Skills from './component/skill'; 
 import { Footer } from "./component/footer";
-import Link from 'next/link'; // Import Link from Next.js
+
 
 export default function Home() {
   return (
