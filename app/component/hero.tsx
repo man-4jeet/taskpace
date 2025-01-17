@@ -2,7 +2,7 @@ import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 
 export function Hero() {
   return (
-    <div className="h-[calc(100vh-45px)] w-screen flex justify-center items-center flex-col" id="hero">
+    <div className="h-[calc(100vh)] w-screen flex justify-center items-center flex-col" id="hero">
       <div className="text-8xl font-thin">Manjeet Singh</div>
       <div className="text-lg">Passionate about changing the world with technology.</div>
 

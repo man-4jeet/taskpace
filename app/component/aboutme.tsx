@@ -4,12 +4,12 @@ import Image from "next/image";
 export function AboutMe() {
     return (
         <div className="flex pt-16 pb-16 bg-gray-100">
-            <div className="flex-shrink-0 w-full md:w-1/3 flex justify-center">
+            <div className="flex-shrink-0 w-[400] h-[400] md:w-1/3 flex justify-center">
                 <Image 
                     src={Photo}
                     alt="Manjeet Singh Profile"
                     width={400}
-                    height={400}
+                 //   height={400}
                     className="rounded-full shadow-lg border-4 border-gray-300"
                 />
             </div>

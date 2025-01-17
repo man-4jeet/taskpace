@@ -20,8 +20,8 @@ export function Experience() {
                 </div>
                 <div className="text-center">
                     <h2 className="text-3xl font-semibold text-gray-900">Cooliewale</h2>
-                    <p className="text-xl text-gray-600 italic">React Developer</p>
-                    <p className="text-lg text-gray-500">Jan 2024 - Feb 2024</p>
+                    <p className="text-xl text-gray-600 italic">Full Stack Developer</p>
+                    <p className="text-lg text-gray-500">Jan 2024 - June 2024</p>
                 </div>
                 <p className="text-gray-700 text-lg max-w-xl leading-relaxed">
                   As a Fullstack Developer at CoolieWale, I built responsive web applications using React.js and Node.js, developed RESTful APIs, 
