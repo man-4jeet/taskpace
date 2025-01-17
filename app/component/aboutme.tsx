@@ -21,7 +21,7 @@ export function AboutMe() {
              
                 </p>
                 <a 
-    href="https://drive.google.com/file/d/1qZIZYEDOUJTs1RY0D8k6KC3yIzlyOlX6/view?usp=drivesdk" 
+    href="https://drive.google.com/file/d/1U-HgCChPB8PrLu6Kp1PuS1o4XfWwoGAg/view?usp=drive_link" 
     target="_blank" 
     rel="noopener noreferrer"
     className="inline-block text-center py-3 px-6 mt-6 text-lg font-medium text-black hover:bg-gray-700 rounded-lg shadow-lg transition-all duration-300 transform hover:scale-105 cursor-pointer max-w-xs"
