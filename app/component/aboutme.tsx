@@ -1,4 +1,4 @@
-import Photo from "../../public/ManjeetProfilephoto.jpeg";
+import Photo from "../../public/ManjeetProfilephoto.jpg";
 import Image from "next/image";
 
 export function AboutMe() {
@@ -16,7 +16,7 @@ export function AboutMe() {
             <div className="ml-8 md:ml-16 text-black flex flex-col justify-center w-full md:w-2/3">
                 <h1 className="text-5xl md:text-6xl font-semibold text-gray-800 mb-6">About Me</h1>
                 <p className="text-lg text-gray-600 leading-relaxed mb-8 mx-auto md:mx-12">
-                I&apos;m Manjeet Singh, a Fullstack Developer with a passion for building dynamic and user-friendly web applications. Currently pursuing a B.Tech in Biotechnology at Motilal Nehru National Institute of Technology (MNNIT), I have honed my skills in web development through various projects and professional experience.
+                I&apos;m Manjeet Singh, a Fullstack Developer with a passion for building dynamic and user-friendly web applications. Currently a final year B.Tech student at Motilal Nehru National Institute of Technology (MNNIT), I have honed my skills in web development through various projects and professional experience.
                 With a problem-solving mindset and a collaborative approach, I&apos;m always looking for opportunities to grow and make an impact through technology.
              
                 </p>

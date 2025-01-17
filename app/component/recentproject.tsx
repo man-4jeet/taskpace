@@ -16,7 +16,7 @@ export function RecentProject() {
                     </div>
                 </div>
                 <div className="text-center">
-                    <h2 className="text-3xl font-semibold text-gray-900">Shoppy</h2>
+                    <h2 className="text-3xl font-semibold text-gray-900">Shopyy</h2>
                     <p className="text-xl text-gray-600 italic">Full Stack Ecommerce Project</p>
                 </div>
                 <p className="text-gray-700 text-lg max-w-xl leading-relaxed">

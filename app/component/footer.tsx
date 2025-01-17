@@ -6,7 +6,7 @@ export function Footer() {
                 <div className="mb-6">
                     <h3 className="text-2xl font-bold mb-2">Get In Touch</h3>
                     <p className="text-lg">
-                        I&apos;m currently looking for full-time React Developer/Frontend Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at   
+                        I&apos;m currently looking for full-time React Developer/Frontend Developer/Full Stack Web Developer opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at   
                         <a href="mailto:ms1857nit@gmail.com" className="text-blue-400 underline ml-2">
                             ms1857nit@gmail.com
                         </a>
