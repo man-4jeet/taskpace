@@ -24,9 +24,8 @@ export function Experience() {
                     <p className="text-lg text-gray-500">Jan 2024 - June 2024</p>
                 </div>
                 <p className="text-gray-700 text-lg max-w-xl leading-relaxed">
-                    At Cooliewale, I contributed as a React Developer, crafting user-friendly interfaces 
-                    and optimizing web applications. This role honed my skills in front-end development and 
-                    teamwork.
+                  As a Fullstack Developer at CoolieWale, I built responsive web applications using React.js and Node.js, developed RESTful APIs, 
+                    and optimized performance with Redis for caching and session management.
                 </p>
             </div>
         </div>
